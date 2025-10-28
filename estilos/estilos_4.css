@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.tarjeta {
+    width: 350px; 
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 4px; 
+    overflow: hidden; 
+}
+
+.tarjeta-encabezado {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tarjeta-cuerpo {
+    background-color: white;
+    color: #333; 
+    padding: 20px;
+    font-size: 3em;
+}
+
+.tarjeta-pie {
+    background-color: #A9A9A9; 
+    color: white;
+    padding: 12px 20px;
+    font-size: 1em;
+    text-align: center;
+    font-weight: bold;
+}

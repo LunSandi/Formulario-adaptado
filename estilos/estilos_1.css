@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    background-color: white; 
+    font-family: Arial, sans-serif;
+}
+
+.contenedor {
+    width: 900px;
+    height: 900px; 
+    background-color: #7FFFD4; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja-centrada {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    max-width: 100px;
+    box-sizing: border-box; 
+}
+.caja-centrada p {
+    margin: 0; 
+    font-size: 0.9em;
+}
